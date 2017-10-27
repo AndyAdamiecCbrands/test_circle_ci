@@ -1,1 +1,9 @@
 
+version: 2
+jobs:
+   build:
+     docker:
+       - image: circleci/Python:3.6.2
+     steps:
+       - checkout
+       - run: echo "hello world"
