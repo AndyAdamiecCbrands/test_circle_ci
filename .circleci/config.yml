@@ -8,6 +8,6 @@ jobs:
        - checkout
        
        - run: 
-         name: run a test script
-         command: 
-            python3 chicago_map.py
+            name: run a test script
+            command: 
+               python3 chicago_map.py
