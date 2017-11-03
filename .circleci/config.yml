@@ -9,4 +9,4 @@ jobs:
        
        - run: 
           command: |
-            conda install sys
+            python3 chicago_map.py
