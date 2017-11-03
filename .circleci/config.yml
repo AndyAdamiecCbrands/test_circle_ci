@@ -11,6 +11,6 @@ jobs:
            command: | 
              python3 chicago_map.py
              
-       - run: echo conda list
+       - run: conda list
              
        
