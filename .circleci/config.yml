@@ -9,4 +9,4 @@ jobs:
        
        - run: 
           command: |
-            conda install requirements.txt
+            conda install sys
