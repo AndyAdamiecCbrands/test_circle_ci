@@ -7,7 +7,7 @@ jobs:
      steps:
        - checkout
        
-       - run: 
-            name: run a test script
-            command: 
-               python3 chicago_map.py
+       - run:
+           name: run a test script
+           command: 
+              python3 chicago_map.py
