@@ -12,5 +12,7 @@ jobs:
              python3 chicago_map.py
              
        - run: conda list
+       
+       - run: conda info
              
        
