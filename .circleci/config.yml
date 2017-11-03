@@ -9,5 +9,6 @@ jobs:
        
        - run:
            name: run a test script
-           command: 
+           command: | 
               python3 chicago_map.py
+       
