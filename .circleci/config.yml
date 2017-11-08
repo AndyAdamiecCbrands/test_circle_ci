@@ -7,7 +7,7 @@ jobs:
      steps:
        - checkout
        
-       - run: pip install -r requirements.txt
+       - run: conda install --yes --file requirements.txt
              
        - run: conda list
        
